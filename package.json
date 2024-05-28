@@ -1,0 +1,27 @@
+{
+  "name": "meddata-api",
+  "version": "1.0.0",
+  "description": "A simple Api for creating, reading, updating and deleting patients data for health facilities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CollinDex/meddata-api.git"
+  },
+  "author": "Obetta Chibuikem Collins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CollinDex/meddata-api/issues"
+  },
+  "homepage": "https://github.com/CollinDex/meddata-api#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.6.2",
+    "mongoose": "^8.4.0",
+    "nodemon": "^3.1.1"
+  }
+}
